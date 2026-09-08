@@ -6,24 +6,24 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe",
-        "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe",
-        "🇨🇾 CY 05 - xiaohe",
-        "🇨🇾 CY 06 - xiaohe"
+        "🇨🇾 CY 01 - xingfei",
+        "🇨🇾 CY 02 - xingfei",
+        "🇨🇾 CY 03 - xingfei",
+        "🇨🇾 CY 04 - xingfei",
+        "🇨🇾 CY 05 - xingfei",
+        "🇨🇾 CY 06 - xingfei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe",
-        "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe",
-        "🇨🇾 CY 05 - xiaohe",
-        "🇨🇾 CY 06 - xiaohe"
+        "🇨🇾 CY 01 - xingfei",
+        "🇨🇾 CY 02 - xingfei",
+        "🇨🇾 CY 03 - xingfei",
+        "🇨🇾 CY 04 - xingfei",
+        "🇨🇾 CY 05 - xingfei",
+        "🇨🇾 CY 06 - xingfei"
       ],
       "url": "https://www.google.com/generate_204"
     },

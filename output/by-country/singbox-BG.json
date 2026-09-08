@@ -6,26 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 BG 01 - xiaohe",
-        "🇧🇬 BG 02 - xiaohe",
-        "🇧🇬 BG 03 - xiaohe",
-        "🇧🇬 BG 04 - xiaohe",
-        "🇧🇬 BG 05 - xiaohe",
-        "🇧🇬 BG 06 - xiaohe",
-        "🇧🇬 BG 07 - xiaohe"
+        "🇧🇬 BG 01 - xingfei",
+        "🇧🇬 BG 02 - xingfei",
+        "🇧🇬 BG 03 - xingfei",
+        "🇧🇬 BG 04 - xingfei",
+        "🇧🇬 BG 05 - xingfei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - xiaohe",
-        "🇧🇬 BG 02 - xiaohe",
-        "🇧🇬 BG 03 - xiaohe",
-        "🇧🇬 BG 04 - xiaohe",
-        "🇧🇬 BG 05 - xiaohe",
-        "🇧🇬 BG 06 - xiaohe",
-        "🇧🇬 BG 07 - xiaohe"
+        "🇧🇬 BG 01 - xingfei",
+        "🇧🇬 BG 02 - xingfei",
+        "🇧🇬 BG 03 - xingfei",
+        "🇧🇬 BG 04 - xingfei",
+        "🇧🇬 BG 05 - xingfei"
       ],
       "url": "https://www.google.com/generate_204"
     },
