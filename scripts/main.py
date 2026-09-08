@@ -29,6 +29,13 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/freefq/free/master/v2",
     "https://open.heleimail.workers.dev/",
     "https://www.ermao.net/sub/v2ray/ermao.net",
+    "https://proxy-socks5.com/proxy_list",
+    "https://raw.githubusercontent.com/v2raynnodes/v2rayfree/main/v2ray.txt",
+    "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/v2ray.txt",
+    "https://raw.githubusercontent.com/shaoyouvip/free/main/base64.txt",
+    "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2ray",
+    "https://raw.githubusercontent.com/mehdirzfx/v2ray-sub/main/v2ray-sub.txt",
+    "https://d.zrfme.com/vless-base64",
 ]
 
 OUTPUT_DIR = "output"
