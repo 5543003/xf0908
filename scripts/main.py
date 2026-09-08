@@ -36,6 +36,7 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2ray",
     "https://raw.githubusercontent.com/mehdirzfx/v2ray-sub/main/v2ray-sub.txt",
     "https://d.zrfme.com/vless-base64",
+    "https://freesocks.org/api/v1/sub/a8259cf3f5c8a78fa49adb621741e79b",
 ]
 
 OUTPUT_DIR = "output"
