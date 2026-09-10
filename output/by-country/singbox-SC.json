@@ -6,14 +6,30 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 SC 01 - xingfei"
+        "🇸🇨 SC 01 - xingfei",
+        "🇸🇨 SC 02 - xingfei",
+        "🇸🇨 SC 03 - xingfei",
+        "🇸🇨 SC 04 - xingfei",
+        "🇸🇨 SC 05 - xingfei",
+        "🇸🇨 SC 06 - xingfei",
+        "🇸🇨 SC 07 - xingfei",
+        "🇸🇨 SC 08 - xingfei",
+        "🇸🇨 SC 09 - xingfei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xingfei"
+        "🇸🇨 SC 01 - xingfei",
+        "🇸🇨 SC 02 - xingfei",
+        "🇸🇨 SC 03 - xingfei",
+        "🇸🇨 SC 04 - xingfei",
+        "🇸🇨 SC 05 - xingfei",
+        "🇸🇨 SC 06 - xingfei",
+        "🇸🇨 SC 07 - xingfei",
+        "🇸🇨 SC 08 - xingfei",
+        "🇸🇨 SC 09 - xingfei"
       ],
       "url": "https://www.google.com/generate_204"
     },
