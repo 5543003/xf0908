@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - xingfei",
-        "🇦🇪 阿联酋 (UAE) 02 - xingfei",
-        "🇦🇪 阿联酋 (UAE) 03 - xingfei",
-        "🇦🇪 阿联酋 (UAE) 04 - xingfei",
-        "🇦🇪 阿联酋 (UAE) 05 - xingfei",
-        "🇦🇪 阿联酋 (UAE) 06 - xingfei"
+        "🇦🇪 阿联酋 (UAE) 01 - xingfei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - xingfei",
-        "🇦🇪 阿联酋 (UAE) 02 - xingfei",
-        "🇦🇪 阿联酋 (UAE) 03 - xingfei",
-        "🇦🇪 阿联酋 (UAE) 04 - xingfei",
-        "🇦🇪 阿联酋 (UAE) 05 - xingfei",
-        "🇦🇪 阿联酋 (UAE) 06 - xingfei"
+        "🇦🇪 阿联酋 (UAE) 01 - xingfei"
       ],
       "url": "https://www.google.com/generate_204"
     },
