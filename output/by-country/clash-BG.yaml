@@ -6,17 +6,18 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - xingfei
   type: vless
-  server: 192.145.31.5
+  server: 172.67.67.178
   port: 443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: 192.145.31.5
+      Host: rayan-007.nastaran.dpdns.org
 - name: 🇧🇬 BG 02 - xingfei
   type: vless
   server: 192.145.31.5
@@ -34,7 +35,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 192.145.31.5
+  servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 04 - xingfei
   type: vless
   server: 192.145.31.5
@@ -46,7 +47,7 @@ proxies:
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 05 - xingfei
   type: vless
-  server: 192.145.31.5
+  server: neth9.lunariai.ru
   port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
@@ -54,41 +55,6 @@ proxies:
   skip-cert-verify: true
   servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 06 - xingfei
-  type: vless
-  server: 192.145.31.5
-  port: 8443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 192.145.31.5
-- name: 🇧🇬 BG 07 - xingfei
-  type: vless
-  server: 192.145.31.5
-  port: 443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 192.145.31.5
-- name: 🇧🇬 BG 08 - xingfei
-  type: vless
-  server: 192.145.31.5
-  port: 443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 192.145.31.5
-- name: 🇧🇬 BG 09 - xingfei
   type: vless
   server: 192.145.31.5
   port: 443
@@ -112,9 +78,6 @@ proxy-groups:
   - 🇧🇬 BG 04 - xingfei
   - 🇧🇬 BG 05 - xingfei
   - 🇧🇬 BG 06 - xingfei
-  - 🇧🇬 BG 07 - xingfei
-  - 🇧🇬 BG 08 - xingfei
-  - 🇧🇬 BG 09 - xingfei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -126,8 +89,5 @@ proxy-groups:
   - 🇧🇬 BG 04 - xingfei
   - 🇧🇬 BG 05 - xingfei
   - 🇧🇬 BG 06 - xingfei
-  - 🇧🇬 BG 07 - xingfei
-  - 🇧🇬 BG 08 - xingfei
-  - 🇧🇬 BG 09 - xingfei
 rules:
 - MATCH,PROXIES
