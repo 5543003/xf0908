@@ -5,100 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xingfei
-  type: vless
-  server: 65.109.216.210
-  port: 443
-  uuid: f1505323-ecb6-4152-9a5b-d37b3ae1cacf
+  type: ss
+  server: 2.28.225.166
+  port: 33
+  cipher: chacha20-ietf-poly1305
+  password: nmpyTs_5vKsSKeD_AWJpaqyOhtWEP4B5
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: OT_dW2iPacfnhBst0DzvzUn6QCNdrn3ZgLQ1W1969Vw
-  servername: play-apps-features.googleusercontent.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 02 - xingfei
-  type: vmess
-  server: 65.109.189.128
-  port: 2086
-  uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇮 FI 03 - xingfei
-  type: vless
-  server: k2.cloud--vpn.site
-  port: 443
-  uuid: cc4a473a-2e15-4fc6-ec54-47c3aa5cec09
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 04 - xingfei
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: cc4a473a-2e15-4fc6-ec54-47c3aa5cec09
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 05 - xingfei
-  type: vmess
-  server: 62.238.46.61
-  port: 28111
-  uuid: 95aaf72c-3e64-4b74-9e29-741f783720d7
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇮 FI 06 - xingfei
-  type: vless
-  server: a2.arshia-nova.ir
-  port: 443
-  uuid: cc4a473a-2e15-4fc6-ec54-47c3aa5cec09
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇫🇮 FI 01 - xingfei
-  - 🇫🇮 FI 02 - xingfei
-  - 🇫🇮 FI 03 - xingfei
-  - 🇫🇮 FI 04 - xingfei
-  - 🇫🇮 FI 05 - xingfei
-  - 🇫🇮 FI 06 - xingfei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇫🇮 FI 01 - xingfei
-  - 🇫🇮 FI 02 - xingfei
-  - 🇫🇮 FI 03 - xingfei
-  - 🇫🇮 FI 04 - xingfei
-  - 🇫🇮 FI 05 - xingfei
-  - 🇫🇮 FI 06 - xingfei
 rules:
 - MATCH,PROXIES
