@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 BR 01 - xingfei",
-        "🇧🇷 BR 02 - xingfei"
+        "🇧🇪 BE 01 - xingfei",
+        "🇧🇪 BE 02 - xingfei",
+        "🇧🇪 BE 03 - xingfei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - xingfei",
-        "🇧🇷 BR 02 - xingfei"
+        "🇧🇪 BE 01 - xingfei",
+        "🇧🇪 BE 02 - xingfei",
+        "🇧🇪 BE 03 - xingfei"
       ],
       "url": "https://www.google.com/generate_204"
     },

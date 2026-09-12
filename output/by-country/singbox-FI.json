@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇫🇮 FI 01 - xingfei",
+        "🇫🇮 FI 02 - xingfei",
+        "🇫🇮 FI 03 - xingfei",
+        "🇫🇮 FI 04 - xingfei",
+        "🇫🇮 FI 05 - xingfei",
+        "🇫🇮 FI 06 - xingfei"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇫🇮 FI 01 - xingfei",
+        "🇫🇮 FI 02 - xingfei",
+        "🇫🇮 FI 03 - xingfei",
+        "🇫🇮 FI 04 - xingfei",
+        "🇫🇮 FI 05 - xingfei",
+        "🇫🇮 FI 06 - xingfei"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

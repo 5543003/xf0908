@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 KZ 01 - xingfei"
+        "🇰🇿 KZ 01 - xingfei",
+        "🇰🇿 KZ 02 - xingfei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ 01 - xingfei"
+        "🇰🇿 KZ 01 - xingfei",
+        "🇰🇿 KZ 02 - xingfei"
       ],
       "url": "https://www.google.com/generate_204"
     },
