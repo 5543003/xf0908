@@ -6,33 +6,19 @@ log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - xingfei
   type: vless
-  server: 104.16.10.103
+  server: 43.160.203.174
   port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: u.srilankangrill.online
+  servername: mia0.pages.dev
   network: ws
   ws-opts:
-    path: /
+    path: /TG:@MiaChatChannel
     headers:
-      Host: u.srilankangrill.online
+      Host: mia0.pages.dev
 - name: 🇸🇬 新加坡 (Singapore) 02 - xingfei
-  type: vless
-  server: 104.16.10.100
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 03 - xingfei
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -42,60 +28,49 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 04 - xingfei
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 03 - xingfei
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 04 - xingfei
+  type: vless
+  server: 104.18.93.167
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: singapore.36109178.xyz
+  network: ws
+  ws-opts:
+    path: /static/media/video-chunk.f4v
+    headers:
+      Host: singapore.36109178.xyz
 - name: 🇸🇬 新加坡 (Singapore) 05 - xingfei
   type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  server: 116.204.164.17
+  port: 7443
+  uuid: 4e2efa26-2969-486b-ae60-390ba54af31b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: u.srilankangrill.online
+  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /@Marisa_kristi
     headers:
-      Host: u.srilankangrill.online
+      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 06 - xingfei
-  type: vless
-  server: 104.16.10.233
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 07 - xingfei
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 08 - xingfei
   type: vmess
-  server: 149.88.23.202
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -103,6 +78,30 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 07 - xingfei
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 08 - xingfei
+  type: vless
+  server: 104.17.159.153
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: singapore.36109178.xyz
+  network: ws
+  ws-opts:
+    path: /static/media/video-chunk.f4v
+    headers:
+      Host: singapore.36109178.xyz
 - name: 🇸🇬 新加坡 (Singapore) 09 - xingfei
   type: vmess
   server: 149.88.23.202
@@ -115,30 +114,32 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 10 - xingfei
   type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  server: 92.113.124.204
+  port: 18443
+  uuid: edd66a4b-8f3c-406c-9f17-a5b123a9006b
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 11 - xingfei
-  type: vless
-  server: 103.137.22.71
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
   network: ws
   ws-opts:
-    path: /register?ed=2560
+    path: /@Marisa_kristi
     headers:
-      Host: cdn8848.776676.xyz
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 11 - xingfei
+  type: vless
+  server: 173.245.49.41
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: singapore.36109178.xyz
+  network: ws
+  ws-opts:
+    path: /static/media/video-chunk.f4v
+    headers:
+      Host: singapore.36109178.xyz
 - name: 🇸🇬 新加坡 (Singapore) 12 - xingfei
   type: vless
   server: 140.245.38.33
@@ -155,20 +156,7 @@ proxies:
       Host: cdn8848.776676.xyz
 - name: 🇸🇬 新加坡 (Singapore) 13 - xingfei
   type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇸🇬 新加坡 (Singapore) 14 - xingfei
-  type: vless
-  server: 104.21.70.228
+  server: 104.16.10.233
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
@@ -180,41 +168,14 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 14 - xingfei
+  type: ss
+  server: sg-2.gsafevpnapi.com
+  port: 31870
+  cipher: aes-256-gcm
+  password: 5f82dcfd-cab5-4b71-91c6-8b6fb4f76c55
+  udp: true
 - name: 🇸🇬 新加坡 (Singapore) 15 - xingfei
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 16 - xingfei
-  type: vless
-  server: 68.64.179.129
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /code?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 17 - xingfei
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 18 - xingfei
   type: vmess
   server: 149.88.23.207
   port: 18000
@@ -224,13 +185,58 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 19 - xingfei
-  type: ss
-  server: sg-2.gsafevpnapi.com
-  port: 31870
-  cipher: aes-256-gcm
-  password: 5416ef6f-b8e5-48e9-87e4-3d5649b2e3e0
+- name: 🇸🇬 新加坡 (Singapore) 16 - xingfei
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 17 - xingfei
+  type: vless
+  server: 172.66.212.110
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: singapore.36109178.xyz
+  network: ws
+  ws-opts:
+    path: /static/media/video-chunk.f4v
+    headers:
+      Host: singapore.36109178.xyz
+- name: 🇸🇬 新加坡 (Singapore) 18 - xingfei
+  type: vless
+  server: 141.193.213.20
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 19 - xingfei
+  type: vless
+  server: 43.160.241.174
+  port: 443
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mia11.pages.dev
+  network: ws
+  ws-opts:
+    path: /TG:@MiaChatChannel
+    headers:
+      Host: mia11.pages.dev
 - name: 🇸🇬 新加坡 (Singapore) 20 - xingfei
   type: vmess
   server: 149.88.23.207
@@ -243,7 +249,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 21 - xingfei
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -253,20 +259,21 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 22 - xingfei
   type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: news.zoom.us
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: u.srilankangrill.online
   network: ws
   ws-opts:
-    path: /fpflow=
+    path: /
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: u.srilankangrill.online
 - name: 🇸🇬 新加坡 (Singapore) 23 - xingfei
   type: vless
-  server: 172.67.224.219
+  server: 104.17.159.229
   port: 2053
   uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   udp: true
@@ -280,19 +287,40 @@ proxies:
       Host: singapore.36109178.xyz
 - name: 🇸🇬 新加坡 (Singapore) 24 - xingfei
   type: vless
-  server: 8.222.84.103
+  server: 134.122.154.210
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 25 - xingfei
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: nautica-cff.kloningstrife002.workers.dev
   network: ws
   ws-opts:
-    path: /member/discount
+    path: /138.2.74.219-28616
     headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 25 - xingfei
+      Host: nautica-cff.kloningstrife002.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 26 - xingfei
+  type: vless
+  server: 170.114.46.6
+  port: 80
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 27 - xingfei
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -302,41 +330,25 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 26 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 28 - xingfei
   type: vless
-  server: 104.21.70.21
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 91.228.154.112
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: singapore.36109178.xyz
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /static/media/video-chunk.f4v
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇬 新加坡 (Singapore) 27 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 28 - xingfei
-  type: ss
-  server: 167.150.100.115
-  port: 27755
-  cipher: 2022-blake3-aes-256-gcm
-  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
-  udp: true
+      Host: singapore.36109178.xyz
 - name: 🇸🇬 新加坡 (Singapore) 29 - xingfei
   type: vless
-  server: 104.19.178.244
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  server: news.zoom.us
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   udp: true
   tls: true
   skip-cert-verify: true
@@ -357,15 +369,19 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 31 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: news.zoom.us
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
 - name: 🇸🇬 新加坡 (Singapore) 32 - xingfei
   type: vmess
   server: ww11.levikogjgfdd.ir
@@ -378,27 +394,19 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 33 - xingfei
   type: vless
-  server: 134.122.154.210
-  port: 443
-  uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 34 - xingfei
-  type: vless
-  server: 68.64.179.129
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 104.17.159.75
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: singapore.36109178.xyz
   network: ws
   ws-opts:
-    path: /code?ed=2560
+    path: /static/media/video-chunk.f4v
     headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 35 - xingfei
+      Host: singapore.36109178.xyz
+- name: 🇸🇬 新加坡 (Singapore) 34 - xingfei
   type: vless
   server: 103.137.22.71
   port: 443
@@ -412,106 +420,19 @@ proxies:
     path: /register?ed=2560
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 36 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 37 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 35 - xingfei
   type: vless
-  server: 91.228.154.112
+  server: 217.217.254.126
   port: 2053
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: singapore.36109178.xyz
-  network: ws
-  ws-opts:
-    path: /static/media/video-chunk.f4v
-    headers:
-      Host: singapore.36109178.xyz
-- name: 🇸🇬 新加坡 (Singapore) 38 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 39 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 40 - xingfei
-  type: vless
-  server: 162.159.39.218
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇬 新加坡 (Singapore) 41 - xingfei
-  type: vless
-  server: 104.16.10.235
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 42 - xingfei
-  type: vless
-  server: 104.16.10.117
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 43 - xingfei
-  type: vless
-  server: 104.16.10.101
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 44 - xingfei
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 36 - xingfei
   type: vless
   server: 217.60.7.121
   port: 2053
@@ -525,46 +446,7 @@ proxies:
     path: /static/media/video-chunk.f4v
     headers:
       Host: singapore.36109178.xyz
-- name: 🇸🇬 新加坡 (Singapore) 45 - xingfei
-  type: vless
-  server: 217.217.254.126
-  port: 2053
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 46 - xingfei
-  type: vless
-  server: 43.159.12.36
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /file/project/novel?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 47 - xingfei
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 48 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 37 - xingfei
   type: vless
   server: 141.193.213.21
   port: 8443
@@ -578,113 +460,20 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 49 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 50 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 51 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 38 - xingfei
   type: vless
-  server: 104.16.10.10
-  port: 443
+  server: support.zoom.us
+  port: 80
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: u.srilankangrill.online
   network: ws
   ws-opts:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 52 - xingfei
-  type: vless
-  server: 104.16.10.233
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 53 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 54 - xingfei
-  type: vless
-  server: 140.245.38.33
-  port: 2096
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /class/season?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 55 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 56 - xingfei
-  type: vless
-  server: 43.160.203.174
-  port: 443
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mia0.pages.dev
-  network: ws
-  ws-opts:
-    path: /TG:@MiaChatChannel
-    headers:
-      Host: mia0.pages.dev
-- name: 🇸🇬 新加坡 (Singapore) 57 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 58 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 39 - xingfei
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -694,75 +483,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 59 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 40 - xingfei
   type: vless
-  server: 8.222.84.103
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /member/discount?ed=2560fp=chrome
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 60 - xingfei
-  type: vless
-  server: 103.137.22.71
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /register?ed=2560fp=chrome
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 61 - xingfei
-  type: vless
-  server: 43.159.12.36
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /file/project/novel?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 62 - xingfei
-  type: vless
-  server: 217.60.7.121
-  port: 2053
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: singapore.36109178.xyz
-  network: ws
-  ws-opts:
-    path: /static/media/video-chunk.f4v
-    headers:
-      Host: singapore.36109178.xyz
-- name: 🇸🇬 新加坡 (Singapore) 63 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 64 - xingfei
-  type: vless
-  server: 104.16.10.2
+  server: 104.24.0.184
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
@@ -774,59 +497,7 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 65 - xingfei
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 66 - xingfei
-  type: vless
-  server: 104.16.156.227
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 67 - xingfei
-  type: vless
-  server: 104.21.236.63
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 68 - xingfei
-  type: vless
-  server: 45.77.241.190
-  port: 8441
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /act/company/intro?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 69 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 41 - xingfei
   type: vless
   server: 104.21.89.41
   port: 443
@@ -840,22 +511,62 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 70 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 42 - xingfei
   type: vless
-  server: 104.18.47.113
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 104.16.112.35
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: singapore.36109178.xyz
+  network: ws
+  ws-opts:
+    path: /static/media/video-chunk.f4v
+    headers:
+      Host: singapore.36109178.xyz
+- name: 🇸🇬 新加坡 (Singapore) 43 - xingfei
+  type: vless
+  server: 43.174.195.1
+  port: 443
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: kkkk-8oc.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: kkkk-8oc.pages.dev
+- name: 🇸🇬 新加坡 (Singapore) 44 - xingfei
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 45 - xingfei
+  type: vless
+  server: 162.159.156.214
+  port: 8880
+  uuid: 8991a496-1baa-486f-9948-ffe44e68c072
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇬 新加坡 (Singapore) 71 - xingfei
+      Host: soft-band-8da6.426.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 46 - xingfei
   type: vless
-  server: 104.19.32.166
+  server: 104.16.10.116
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
@@ -867,9 +578,40 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 72 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 47 - xingfei
   type: vless
-  server: 104.21.60.109
+  server: 217.60.7.121
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: singapore.36109178.xyz
+  network: ws
+  ws-opts:
+    path: /static/media/video-chunk.f4v
+    headers:
+      Host: singapore.36109178.xyz
+- name: 🇸🇬 新加坡 (Singapore) 48 - xingfei
+  type: ss
+  server: 167.150.100.115
+  port: 27755
+  cipher: 2022-blake3-aes-256-gcm
+  password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 49 - xingfei
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 50 - xingfei
+  type: vless
+  server: 188.114.97.6
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
@@ -881,21 +623,21 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 73 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 51 - xingfei
   type: vless
-  server: 43.159.12.36
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 91.193.58.15
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: free-server.techsonic.dev
   network: ws
   ws-opts:
-    path: /file/project/novel?ed=2560
+    path: /free-server.techsonic.dev
     headers:
-      Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 74 - xingfei
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 52 - xingfei
   type: vless
   server: 141.193.213.20
   port: 8443
@@ -909,21 +651,442 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇸🇬 新加坡 (Singapore) 75 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 53 - xingfei
   type: vless
-  server: 43.159.12.36
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 54 - xingfei
+  type: vless
+  server: 104.17.52.155
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: singapore.36109178.xyz
   network: ws
   ws-opts:
-    path: /file/project/novel?ed=2560
+    path: /static/media/video-chunk.f4v
     headers:
-      Host: cdn8848.776676.xyz
+      Host: singapore.36109178.xyz
+- name: 🇸🇬 新加坡 (Singapore) 55 - xingfei
+  type: vless
+  server: 104.16.10.10
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 56 - xingfei
+  type: vless
+  server: 193.29.225.249
+  port: 4443
+  uuid: d0dd16f2-81b4-4892-933e-040856457242
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 57 - xingfei
+  type: vless
+  server: 104.21.60.109
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 58 - xingfei
+  type: vless
+  server: 104.16.10.103
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 59 - xingfei
+  type: vless
+  server: news.zoom.us
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 60 - xingfei
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 61 - xingfei
+  type: vless
+  server: 104.16.156.227
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 62 - xingfei
+  type: vless
+  server: 104.16.10.234
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 63 - xingfei
+  type: vless
+  server: 172.67.170.140
+  port: 2053
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: INDEX.Arcane509.Workers.DEV
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: index.arcane509.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 64 - xingfei
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 65 - xingfei
+  type: vless
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 66 - xingfei
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 67 - xingfei
+  type: vless
+  server: 128.241.25.3
+  port: 30021
+  uuid: afec813e-a5c7-432d-be48-2803c30eea4e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 68 - xingfei
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nautica-cff.kloningstrife002.workers.dev
+  network: ws
+  ws-opts:
+    path: /138.2.74.219-28616
+    headers:
+      Host: nautica-cff.kloningstrife002.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 69 - xingfei
+  type: vless
+  server: 104.16.10.10
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 70 - xingfei
+  type: vless
+  server: 104.16.10.104
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 71 - xingfei
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nautica-cff.kloningstrife002.workers.dev
+  network: ws
+  ws-opts:
+    path: /138.2.74.219-28616
+    headers:
+      Host: nautica-cff.kloningstrife002.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 72 - xingfei
+  type: vless
+  server: 170.114.45.6
+  port: 80
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 73 - xingfei
+  type: vless
+  server: 104.16.10.233
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 74 - xingfei
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 75 - xingfei
+  type: vless
+  server: 104.16.86.10
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: singapore.36109178.xyz
+  network: ws
+  ws-opts:
+    path: /static/media/video-chunk.f4v
+    headers:
+      Host: singapore.36109178.xyz
 - name: 🇸🇬 新加坡 (Singapore) 76 - xingfei
+  type: vless
+  server: 104.21.70.228
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 77 - xingfei
+  type: vless
+  server: 172.66.140.62
+  port: 8880
+  uuid: 160ca353-676d-4b7f-a041-0289e388b865
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: proud-cloud-7bdd.208-a52.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 78 - xingfei
+  type: vless
+  server: 45.76.87.125
+  port: 14750
+  uuid: c2c94230-7075-4558-89f4-ddf74d7de107
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+- name: 🇸🇬 新加坡 (Singapore) 79 - xingfei
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 80 - xingfei
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 81 - xingfei
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 82 - xingfei
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 83 - xingfei
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 84 - xingfei
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 85 - xingfei
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 86 - xingfei
+  type: vless
+  server: 217.217.254.126
+  port: 2053
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 87 - xingfei
   type: vless
   server: 68.64.179.129
   port: 443
@@ -934,23 +1097,71 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /code?ed=2560fp=chrome
+    path: /code?ed=2560
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇸🇬 新加坡 (Singapore) 77 - xingfei
+- name: 🇸🇬 新加坡 (Singapore) 88 - xingfei
   type: vless
-  server: 43.175.131.30
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 172.67.224.219
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: singapore.36109178.xyz
   network: ws
   ws-opts:
-    path: /article?ed=2560
+    path: /static/media/video-chunk.f4v
     headers:
-      Host: cdn8848.776676.xyz
+      Host: singapore.36109178.xyz
+- name: 🇸🇬 新加坡 (Singapore) 89 - xingfei
+  type: vless
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 90 - xingfei
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 91 - xingfei
+  type: vless
+  server: 104.16.10.100
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇸🇬 新加坡 (Singapore) 92 - xingfei
+  type: vmess
+  server: 124.151.45.60
+  port: 38320
+  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1033,6 +1244,21 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 75 - xingfei
   - 🇸🇬 新加坡 (Singapore) 76 - xingfei
   - 🇸🇬 新加坡 (Singapore) 77 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 78 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 79 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 80 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 81 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 82 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 83 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 84 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 85 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 86 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 87 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 88 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 89 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 90 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 91 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 92 - xingfei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1115,5 +1341,20 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 75 - xingfei
   - 🇸🇬 新加坡 (Singapore) 76 - xingfei
   - 🇸🇬 新加坡 (Singapore) 77 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 78 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 79 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 80 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 81 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 82 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 83 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 84 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 85 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 86 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 87 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 88 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 89 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 90 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 91 - xingfei
+  - 🇸🇬 新加坡 (Singapore) 92 - xingfei
 rules:
 - MATCH,PROXIES

@@ -5,34 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xingfei
-  type: ss
-  server: 46.17.42.166
-  port: 50111
-  cipher: aes-256-gcm
-  password: 6b39ae3234dfd68b
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xingfei
-  type: ss
-  server: 195.133.23.200
-  port: 7018
-  cipher: aes-256-gcm
-  password: 81a20429165df87e
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xingfei
-  type: vless
-  server: 78.159.247.246
-  port: 443
-  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sb2.hat.onl
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: sb2.hat.onl
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xingfei
   type: vless
   server: 46.8.200.91
   port: 443
@@ -46,7 +18,7 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xingfei
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xingfei
   type: vless
   server: 78.159.247.246
   port: 443
@@ -60,33 +32,108 @@ proxies:
     path: /ws
     headers:
       Host: sb2.hat.onl
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xingfei
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xingfei
+  type: vless
+  server: 104.21.19.76
+  port: 2096
+  uuid: fee1da7e-a258-4456-8e5e-8ecf6518ed12
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ez-82c7e7.aBoBaBA.WorkeRS.dEv
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiemxGMEFDU1VDRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: ez-82c7e7.abobaba.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xingfei
   type: ss
   server: 130.49.189.158
   port: 43558
   cipher: chacha20-ietf-poly1305
   password: /QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA=
   udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xingfei
+  type: vless
+  server: 172.66.47.45
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wk1.f1w.de5.net
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xingfei
+  type: ss
+  server: 46.17.42.166
+  port: 50111
+  cipher: aes-256-gcm
+  password: 6b39ae3234dfd68b
+  udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 07 - xingfei
-  type: ss
-  server: 195.133.5.102
-  port: 7018
-  cipher: aes-256-gcm
-  password: 895b4b796a357570
+  type: vless
+  server: 172.64.32.103
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 08 - xingfei
-  type: ss
-  server: 195.58.48.137
-  port: 7018
-  cipher: aes-256-gcm
-  password: 8ad9d72a5571df86
+  type: vless
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
 - name: 🇷🇺 俄罗斯 (Russia) 09 - xingfei
+  type: vless
+  server: 176.124.223.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime38.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 10 - xingfei
+  type: vless
+  server: 78.159.247.246
+  port: 443
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sb2.hat.onl
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: sb2.hat.onl
+- name: 🇷🇺 俄罗斯 (Russia) 11 - xingfei
   type: ss
-  server: 46.17.40.234
+  server: 195.133.23.200
   port: 7018
   cipher: aes-256-gcm
-  password: bdb313adf74c2ede
+  password: 81a20429165df87e
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -102,6 +149,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 07 - xingfei
   - 🇷🇺 俄罗斯 (Russia) 08 - xingfei
   - 🇷🇺 俄罗斯 (Russia) 09 - xingfei
+  - 🇷🇺 俄罗斯 (Russia) 10 - xingfei
+  - 🇷🇺 俄罗斯 (Russia) 11 - xingfei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -116,5 +165,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 07 - xingfei
   - 🇷🇺 俄罗斯 (Russia) 08 - xingfei
   - 🇷🇺 俄罗斯 (Russia) 09 - xingfei
+  - 🇷🇺 俄罗斯 (Russia) 10 - xingfei
+  - 🇷🇺 俄罗斯 (Russia) 11 - xingfei
 rules:
 - MATCH,PROXIES
