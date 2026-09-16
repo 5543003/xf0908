@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇳 CN 01 - xingfei",
-        "🇨🇳 CN 02 - xingfei"
+        "🇮🇪 IE 01 - xingfei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇳 CN 01 - xingfei",
-        "🇨🇳 CN 02 - xingfei"
+        "🇮🇪 IE 01 - xingfei"
       ],
       "url": "https://www.google.com/generate_204"
     },

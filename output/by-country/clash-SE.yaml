@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇷 BR 01 - xingfei
+- name: 🇸🇪 SE 01 - xingfei
   type: vless
-  server: 104.64.59.22
-  port: 443
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  server: 143.246.194.60
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: kkkk-8oc.pages.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /vless-test
     headers:
-      Host: kkkk-8oc.pages.dev
+      Host: 143.246.194.60
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇷 BR 01 - xingfei
+  - 🇸🇪 SE 01 - xingfei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇷 BR 01 - xingfei
+  - 🇸🇪 SE 01 - xingfei
 rules:
 - MATCH,PROXIES

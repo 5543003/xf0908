@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 SC 01 - xingfei",
-        "🇸🇨 SC 02 - xingfei"
+        "🇺🇸 美国 (United States) 01 (家宽) - xingfei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xingfei",
-        "🇸🇨 SC 02 - xingfei"
+        "🇺🇸 美国 (United States) 01 (家宽) - xingfei"
       ],
       "url": "https://www.google.com/generate_204"
     },
