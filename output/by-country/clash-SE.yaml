@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - xingfei
-  type: ss
-  server: 51.170.179.166
-  port: 45819
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 4pGFK0x/lqudD4LJU8isjFCNxlw04AnKc72lFxetSZU=
-  udp: true
-- name: 🇸🇪 SE 02 - xingfei
   type: vless
   server: 143.246.194.60
   port: 8081
@@ -30,13 +23,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇪 SE 01 - xingfei
-  - 🇸🇪 SE 02 - xingfei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇪 SE 01 - xingfei
-  - 🇸🇪 SE 02 - xingfei
 rules:
 - MATCH,PROXIES
