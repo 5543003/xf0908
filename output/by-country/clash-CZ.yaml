@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xingfei
   type: vless
-  server: 195.85.23.252
+  server: 195.85.23.29
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -15,52 +15,24 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 02 - xingfei
   type: vless
-  server: 104.21.94.230
-  port: 443
-  uuid: de78c0b1-c5c8-412a-bd92-430d1f2e2642
+  server: 64.225.110.247
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: FroSTy-PonD-7436.SHHabbYAt914.woRkErS.dEv
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /NmrU9ImDG7jA7oFEem
+    path: /acg/buy/ajax
     headers:
-      Host: frosty-pond-7436.shhabbyat914.workers.dev
+      Host: cdn8848.776676.xyz
 - name: 🇨🇿 CZ 03 - xingfei
-  type: vless
-  server: 195.85.23.217
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 04 - xingfei
-  type: vless
-  server: 195.85.23.45
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 05 - xingfei
   type: vless
   server: 195.85.23.248
   port: 443
@@ -71,80 +43,10 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 06 - xingfei
-  type: vless
-  server: 195.85.23.88
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 07 - xingfei
-  type: vless
-  server: 195.85.23.111
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 08 - xingfei
-  type: vless
-  server: 195.85.23.47
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 09 - xingfei
-  type: vless
-  server: 195.85.23.219
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 10 - xingfei
-  type: vless
-  server: 195.85.23.29
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 11 - xingfei
+- name: 🇨🇿 CZ 04 - xingfei
   type: vless
   server: 195.85.23.75
   port: 443
@@ -155,7 +57,7 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
 proxy-groups:
@@ -167,13 +69,6 @@ proxy-groups:
   - 🇨🇿 CZ 02 - xingfei
   - 🇨🇿 CZ 03 - xingfei
   - 🇨🇿 CZ 04 - xingfei
-  - 🇨🇿 CZ 05 - xingfei
-  - 🇨🇿 CZ 06 - xingfei
-  - 🇨🇿 CZ 07 - xingfei
-  - 🇨🇿 CZ 08 - xingfei
-  - 🇨🇿 CZ 09 - xingfei
-  - 🇨🇿 CZ 10 - xingfei
-  - 🇨🇿 CZ 11 - xingfei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -183,12 +78,5 @@ proxy-groups:
   - 🇨🇿 CZ 02 - xingfei
   - 🇨🇿 CZ 03 - xingfei
   - 🇨🇿 CZ 04 - xingfei
-  - 🇨🇿 CZ 05 - xingfei
-  - 🇨🇿 CZ 06 - xingfei
-  - 🇨🇿 CZ 07 - xingfei
-  - 🇨🇿 CZ 08 - xingfei
-  - 🇨🇿 CZ 09 - xingfei
-  - 🇨🇿 CZ 10 - xingfei
-  - 🇨🇿 CZ 11 - xingfei
 rules:
 - MATCH,PROXIES
