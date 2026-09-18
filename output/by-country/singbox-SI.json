@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇹 AT 01 - xingfei"
+        "🇸🇮 SI 01 - xingfei",
+        "🇸🇮 SI 02 - xingfei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT 01 - xingfei"
+        "🇸🇮 SI 01 - xingfei",
+        "🇸🇮 SI 02 - xingfei"
       ],
       "url": "https://www.google.com/generate_204"
     },
