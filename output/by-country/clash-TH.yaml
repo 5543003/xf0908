@@ -5,6 +5,91 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 TH 01 - xingfei
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+- name: 🇹🇭 TH 02 - xingfei
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇹🇭 TH 03 - xingfei
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇹🇭 TH 04 - xingfei
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: edge
+- name: 🇹🇭 TH 05 - xingfei
+  type: vless
+  server: 103.86.49.57
+  port: 80
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: aIs.SpEeDtEsT.nEt
+- name: 🇹🇭 TH 06 - xingfei
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇹🇭 TH 07 - xingfei
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇹🇭 TH 08 - xingfei
   type: vmess
   server: 118.193.57.167
   port: 49667
@@ -25,11 +110,25 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇹🇭 TH 01 - xingfei
+  - 🇹🇭 TH 02 - xingfei
+  - 🇹🇭 TH 03 - xingfei
+  - 🇹🇭 TH 04 - xingfei
+  - 🇹🇭 TH 05 - xingfei
+  - 🇹🇭 TH 06 - xingfei
+  - 🇹🇭 TH 07 - xingfei
+  - 🇹🇭 TH 08 - xingfei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇭 TH 01 - xingfei
+  - 🇹🇭 TH 02 - xingfei
+  - 🇹🇭 TH 03 - xingfei
+  - 🇹🇭 TH 04 - xingfei
+  - 🇹🇭 TH 05 - xingfei
+  - 🇹🇭 TH 06 - xingfei
+  - 🇹🇭 TH 07 - xingfei
+  - 🇹🇭 TH 08 - xingfei
 rules:
 - MATCH,PROXIES

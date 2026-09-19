@@ -6,14 +6,28 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 TH 01 - xingfei"
+        "🇹🇭 TH 01 - xingfei",
+        "🇹🇭 TH 02 - xingfei",
+        "🇹🇭 TH 03 - xingfei",
+        "🇹🇭 TH 04 - xingfei",
+        "🇹🇭 TH 05 - xingfei",
+        "🇹🇭 TH 06 - xingfei",
+        "🇹🇭 TH 07 - xingfei",
+        "🇹🇭 TH 08 - xingfei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - xingfei"
+        "🇹🇭 TH 01 - xingfei",
+        "🇹🇭 TH 02 - xingfei",
+        "🇹🇭 TH 03 - xingfei",
+        "🇹🇭 TH 04 - xingfei",
+        "🇹🇭 TH 05 - xingfei",
+        "🇹🇭 TH 06 - xingfei",
+        "🇹🇭 TH 07 - xingfei",
+        "🇹🇭 TH 08 - xingfei"
       ],
       "url": "https://www.google.com/generate_204"
     },
