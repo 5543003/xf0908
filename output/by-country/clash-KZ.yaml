@@ -6,48 +6,6 @@ log-level: info
 proxies:
 - name: 🇰🇿 KZ 01 - xingfei
   type: vless
-  server: 31.43.179.200
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 02 - xingfei
-  type: vless
-  server: 31.43.179.109
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 03 - xingfei
-  type: vless
-  server: 31.43.179.200
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 04 - xingfei
-  type: vless
   server: 31.43.179.137
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
@@ -57,24 +15,10 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 05 - xingfei
-  type: vless
-  server: 31.43.179.87
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 06 - xingfei
+- name: 🇰🇿 KZ 02 - xingfei
   type: vless
   server: 31.43.179.36
   port: 443
@@ -88,9 +32,9 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 07 - xingfei
+- name: 🇰🇿 KZ 03 - xingfei
   type: vless
-  server: 31.43.179.25
+  server: 31.43.179.87
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -102,7 +46,35 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 08 - xingfei
+- name: 🇰🇿 KZ 04 - xingfei
+  type: vless
+  server: 31.43.179.20
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇰🇿 KZ 05 - xingfei
+  type: vless
+  server: 31.43.179.200
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇰🇿 KZ 06 - xingfei
   type: vless
   server: 31.43.179.200
   port: 443
@@ -116,9 +88,9 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 09 - xingfei
+- name: 🇰🇿 KZ 07 - xingfei
   type: vless
-  server: 31.43.179.170
+  server: 31.43.179.25
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -127,10 +99,10 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 10 - xingfei
+- name: 🇰🇿 KZ 08 - xingfei
   type: vless
   server: 31.43.179.20
   port: 443
@@ -144,7 +116,7 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 11 - xingfei
+- name: 🇰🇿 KZ 09 - xingfei
   type: vless
   server: 31.43.179.8
   port: 443
@@ -155,12 +127,12 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 12 - xingfei
+- name: 🇰🇿 KZ 10 - xingfei
   type: vless
-  server: 31.43.179.36
+  server: 31.43.179.170
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -169,26 +141,12 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 13 - xingfei
+- name: 🇰🇿 KZ 11 - xingfei
   type: vless
   server: 31.43.179.25
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 14 - xingfei
-  type: vless
-  server: 31.43.179.106
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -216,9 +174,6 @@ proxy-groups:
   - 🇰🇿 KZ 09 - xingfei
   - 🇰🇿 KZ 10 - xingfei
   - 🇰🇿 KZ 11 - xingfei
-  - 🇰🇿 KZ 12 - xingfei
-  - 🇰🇿 KZ 13 - xingfei
-  - 🇰🇿 KZ 14 - xingfei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -235,8 +190,5 @@ proxy-groups:
   - 🇰🇿 KZ 09 - xingfei
   - 🇰🇿 KZ 10 - xingfei
   - 🇰🇿 KZ 11 - xingfei
-  - 🇰🇿 KZ 12 - xingfei
-  - 🇰🇿 KZ 13 - xingfei
-  - 🇰🇿 KZ 14 - xingfei
 rules:
 - MATCH,PROXIES
