@@ -6,46 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 CZ 01 - xingfei",
-        "🇨🇿 CZ 02 - xingfei",
-        "🇨🇿 CZ 03 - xingfei",
-        "🇨🇿 CZ 04 - xingfei",
-        "🇨🇿 CZ 05 - xingfei",
-        "🇨🇿 CZ 06 - xingfei",
-        "🇨🇿 CZ 07 - xingfei",
-        "🇨🇿 CZ 08 - xingfei",
-        "🇨🇿 CZ 09 - xingfei",
-        "🇨🇿 CZ 10 - xingfei",
-        "🇨🇿 CZ 11 - xingfei",
-        "🇨🇿 CZ 12 - xingfei",
-        "🇨🇿 CZ 13 - xingfei",
-        "🇨🇿 CZ 14 - xingfei",
-        "🇨🇿 CZ 15 - xingfei",
-        "🇨🇿 CZ 16 - xingfei",
-        "🇨🇿 CZ 17 - xingfei"
+        "🇨🇿 CZ 01 - xingfei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - xingfei",
-        "🇨🇿 CZ 02 - xingfei",
-        "🇨🇿 CZ 03 - xingfei",
-        "🇨🇿 CZ 04 - xingfei",
-        "🇨🇿 CZ 05 - xingfei",
-        "🇨🇿 CZ 06 - xingfei",
-        "🇨🇿 CZ 07 - xingfei",
-        "🇨🇿 CZ 08 - xingfei",
-        "🇨🇿 CZ 09 - xingfei",
-        "🇨🇿 CZ 10 - xingfei",
-        "🇨🇿 CZ 11 - xingfei",
-        "🇨🇿 CZ 12 - xingfei",
-        "🇨🇿 CZ 13 - xingfei",
-        "🇨🇿 CZ 14 - xingfei",
-        "🇨🇿 CZ 15 - xingfei",
-        "🇨🇿 CZ 16 - xingfei",
-        "🇨🇿 CZ 17 - xingfei"
+        "🇨🇿 CZ 01 - xingfei"
       ],
       "url": "https://www.google.com/generate_204"
     },
