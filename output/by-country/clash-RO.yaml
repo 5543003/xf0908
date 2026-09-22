@@ -4,10 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇰 DK 01 - xingfei
+- name: 🇷🇴 RO 01 - xingfei
   type: vless
-  server: 193.180.208.169
-  port: 8443
+  server: 154.46.31.118
+  port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   tls: true
@@ -18,10 +18,24 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
-- name: 🇩🇰 DK 02 - xingfei
+- name: 🇷🇴 RO 02 - xingfei
   type: vless
-  server: 193.180.208.169
-  port: 8443
+  server: 185.153.198.86
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇷🇴 RO 03 - xingfei
+  type: vless
+  server: 185.153.198.86
+  port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   tls: true
@@ -37,14 +51,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇩🇰 DK 01 - xingfei
-  - 🇩🇰 DK 02 - xingfei
+  - 🇷🇴 RO 01 - xingfei
+  - 🇷🇴 RO 02 - xingfei
+  - 🇷🇴 RO 03 - xingfei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇰 DK 01 - xingfei
-  - 🇩🇰 DK 02 - xingfei
+  - 🇷🇴 RO 01 - xingfei
+  - 🇷🇴 RO 02 - xingfei
+  - 🇷🇴 RO 03 - xingfei
 rules:
 - MATCH,PROXIES
