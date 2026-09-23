@@ -6,68 +6,18 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xingfei
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: e16ab346-73be-4fc6-8b6f-511c455b8504
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - xingfei
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: e45762cb-9cd1-4e69-8638-9126456b79bd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 03 - xingfei
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - xingfei
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - xingfei
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 06 - xingfei
   type: vless
   server: 89.125.147.199
   port: 443
@@ -79,31 +29,20 @@ proxies:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
   client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 07 - xingfei
+- name: 🇦🇪 阿联酋 (UAE) 03 - xingfei
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: ce55737c-243b-497f-9d9a-38700f327894
+  server: 45.130.125.201
+  port: 80
+  uuid: dc8a9493-c54a-459e-d060-81a700000001
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 08 - xingfei
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 7c97de67-9586-4aa5-8adf-ff3ce469149e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 09 - xingfei
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-core.netizo09.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 04 - xingfei
   type: vless
   server: 84.235.244.108
   port: 22573
@@ -125,11 +64,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - xingfei
   - 🇦🇪 阿联酋 (UAE) 03 - xingfei
   - 🇦🇪 阿联酋 (UAE) 04 - xingfei
-  - 🇦🇪 阿联酋 (UAE) 05 - xingfei
-  - 🇦🇪 阿联酋 (UAE) 06 - xingfei
-  - 🇦🇪 阿联酋 (UAE) 07 - xingfei
-  - 🇦🇪 阿联酋 (UAE) 08 - xingfei
-  - 🇦🇪 阿联酋 (UAE) 09 - xingfei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -139,10 +73,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - xingfei
   - 🇦🇪 阿联酋 (UAE) 03 - xingfei
   - 🇦🇪 阿联酋 (UAE) 04 - xingfei
-  - 🇦🇪 阿联酋 (UAE) 05 - xingfei
-  - 🇦🇪 阿联酋 (UAE) 06 - xingfei
-  - 🇦🇪 阿联酋 (UAE) 07 - xingfei
-  - 🇦🇪 阿联酋 (UAE) 08 - xingfei
-  - 🇦🇪 阿联酋 (UAE) 09 - xingfei
 rules:
 - MATCH,PROXIES
