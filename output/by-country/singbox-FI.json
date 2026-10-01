@@ -42,7 +42,7 @@
         "server_name": "google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -54,69 +54,6 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 04 - xiaohe",
-      "server": "2.26.101.134",
-      "server_port": 443,
-      "uuid": "84a3061b-3573-4a3c-a631-f26c31209268",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw-01.vacvps.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bDAry75taTMaPJII9vRrJuXAjQglTJxCOVWraQ5BozY",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - xiaohe",
-      "server": "65.109.28.164",
-      "server_port": 443,
-      "uuid": "8df2e661-6f46-471b-9133-7fc13a0daa35",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "web.eitaa.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "jDoORbrtDrvAlFSo19CJbc99C4ev8SAo1MwczSUt9no",
-          "short_id": "90ec9bba2019"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 06 - xiaohe",
-      "server": "212.147.245.198",
-      "server_port": 443,
-      "uuid": "042d2d08-2973-5d10-97ad-3b75f16bbe54",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "online.1c.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xwLNHc6jBOg5Ddr1LezwY7I45nP485Qfu1YJXMKwVnI",
-          "short_id": "330a464a00000000"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 07 - xiaohe",
       "server": "144.31.27.215",
       "server_port": 43000,
       "uuid": "47f79fc1-0646-40e8-8a58-73e85d183d5a",
@@ -126,7 +63,7 @@
         "server_name": "144.31.27.215",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -137,7 +74,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 08 - xiaohe",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - xiaohe",
       "server": "144.31.212.253",
       "server_port": 443,
       "password": "cf83b611-6cba-4535-adcb-8da06c6a9146",
@@ -149,21 +86,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 09 - xiaohe",
-      "server": "37.143.129.161",
-      "server_port": 8443,
-      "uuid": "e3e9805a-6c8b-4edd-8ee8-621df79806eb",
+      "tag": "🇫🇮 芬兰 (Finland) 06 - xiaohe",
+      "server": "109.94.164.185",
+      "server_port": 10210,
+      "uuid": "ce4b2104-f1fe-4216-ad67-8c21869b9118",
       "tls": {
         "enabled": true,
-        "server_name": "fi.aksay.pro",
+        "server_name": "firebaseperusertopics-pa.googleapis.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "B5-zPBBAI-UATY7rSvoggM1T65h9CfVw7yBluBNd-yI",
-          "short_id": "4a5f04a5ea205fc3"
+          "public_key": "twRm8a1BBdz2Q5jTuNbXxA7ZdtDPAyQNEycDYkW9DFc",
+          "short_id": "13121b7150ad7fc6"
         }
       },
       "transport": {
@@ -172,10 +109,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 10 - xiaohe",
-      "server": "204.168.147.195",
-      "server_port": 1085,
-      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1"
+      "tag": "🇫🇮 芬兰 (Finland) 07 - xiaohe",
+      "server": "31.77.158.132",
+      "server_port": 443,
+      "uuid": "af2bf319-ba88-4fec-8317-2b6a8cee96d1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hittaikea.prizraknode.shop",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "COMosLQzz8GJ3ATEBK__SBjKsiL5VVS1MWkWUFpQTVk",
+          "short_id": ""
+        }
+      }
     },
     {
       "type": "selector",
@@ -188,10 +139,7 @@
         "🇫🇮 芬兰 (Finland) 04 - xiaohe",
         "🇫🇮 芬兰 (Finland) 05 - xiaohe",
         "🇫🇮 芬兰 (Finland) 06 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 07 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 08 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 09 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 10 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 07 - xiaohe"
       ]
     },
     {
@@ -204,10 +152,7 @@
         "🇫🇮 芬兰 (Finland) 04 - xiaohe",
         "🇫🇮 芬兰 (Finland) 05 - xiaohe",
         "🇫🇮 芬兰 (Finland) 06 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 07 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 08 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 09 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 10 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
